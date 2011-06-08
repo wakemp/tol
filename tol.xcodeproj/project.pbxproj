@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82242D10139EF6410035ECBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82242D0F139EF6410035ECBD /* UIKit.framework */; };
+		82242D12139EF6410035ECBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82242D11139EF6410035ECBD /* Foundation.framework */; };
+		82242D14139EF6410035ECBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82242D13139EF6410035ECBD /* CoreGraphics.framework */; };
+		82242D1A139EF6410035ECBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82242D18139EF6410035ECBD /* InfoPlist.strings */; };
+		82242D1C139EF6410035ECBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82242D1B139EF6410035ECBD /* main.m */; };
+		82242D20139EF6410035ECBD /* tolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82242D1F139EF6410035ECBD /* tolAppDelegate.m */; };
+		82242D23139EF6410035ECBD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82242D21139EF6410035ECBD /* MainStoryboard_iPhone.storyboard */; };
+		82242D26139EF6410035ECBD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82242D24139EF6410035ECBD /* MainStoryboard_iPad.storyboard */; };
+		82242D29139EF6410035ECBD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82242D28139EF6410035ECBD /* RootViewController.m */; };
+		82242D2B139EF6420035ECBD /* DetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 82242D2A139EF6420035ECBD /* DetailViewController.h */; };
+		82242D2D139EF6420035ECBD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82242D2C139EF6420035ECBD /* DetailViewController.m */; };
+		82242D35139EF6420035ECBD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82242D34139EF6420035ECBD /* SenTestingKit.framework */; };
+		82242D36139EF6420035ECBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82242D0F139EF6410035ECBD /* UIKit.framework */; };
+		82242D37139EF6420035ECBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82242D11139EF6410035ECBD /* Foundation.framework */; };
+		82242D38139EF6420035ECBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82242D13139EF6410035ECBD /* CoreGraphics.framework */; };
+		82242D40139EF6420035ECBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82242D3E139EF6420035ECBD /* InfoPlist.strings */; };
+		82242D42139EF6420035ECBD /* tolTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 82242D41139EF6420035ECBD /* tolTests.h */; };
+		82242D44139EF6420035ECBD /* tolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82242D43139EF6420035ECBD /* tolTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82242D39139EF6420035ECBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82242D02139EF6400035ECBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82242D0A139EF6410035ECBD;
+			remoteInfo = tol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82242D0B139EF6410035ECBD /* tol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82242D0F139EF6410035ECBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82242D11139EF6410035ECBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82242D13139EF6410035ECBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82242D17139EF6410035ECBD /* tol-Info.plist */ = {isa = PBXFileReference; path = "tol-Info.plist"; sourceTree = "<group>"; };
+		82242D19139EF6410035ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82242D1B139EF6410035ECBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82242D1D139EF6410035ECBD /* tol-Prefix.pch */ = {isa = PBXFileReference; path = "tol-Prefix.pch"; sourceTree = "<group>"; };
+		82242D1E139EF6410035ECBD /* tolAppDelegate.h */ = {isa = PBXFileReference; path = tolAppDelegate.h; sourceTree = "<group>"; };
+		82242D1F139EF6410035ECBD /* tolAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tolAppDelegate.m; sourceTree = "<group>"; };
+		82242D22139EF6410035ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		82242D25139EF6410035ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		82242D27139EF6410035ECBD /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		82242D28139EF6410035ECBD /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		82242D2A139EF6420035ECBD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		82242D2C139EF6420035ECBD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		82242D33139EF6420035ECBD /* tolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82242D34139EF6420035ECBD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		82242D3D139EF6420035ECBD /* tolTests-Info.plist */ = {isa = PBXFileReference; path = "tolTests-Info.plist"; sourceTree = "<group>"; };
+		82242D3F139EF6420035ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82242D41139EF6420035ECBD /* tolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tolTests.h; sourceTree = "<group>"; };
+		82242D43139EF6420035ECBD /* tolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tolTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82242D08139EF6410035ECBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82242D10139EF6410035ECBD /* UIKit.framework in Frameworks */,
+				82242D12139EF6410035ECBD /* Foundation.framework in Frameworks */,
+				82242D14139EF6410035ECBD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82242D2F139EF6420035ECBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82242D35139EF6420035ECBD /* SenTestingKit.framework in Frameworks */,
+				82242D36139EF6420035ECBD /* UIKit.framework in Frameworks */,
+				82242D37139EF6420035ECBD /* Foundation.framework in Frameworks */,
+				82242D38139EF6420035ECBD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82242D00139EF6400035ECBD = {
+			isa = PBXGroup;
+			children = (
+				82242D15139EF6410035ECBD /* tol */,
+				82242D3B139EF6420035ECBD /* tolTests */,
+				82242D0E139EF6410035ECBD /* Frameworks */,
+				82242D0C139EF6410035ECBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82242D0C139EF6410035ECBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82242D0B139EF6410035ECBD /* tol.app */,
+				82242D33139EF6420035ECBD /* tolTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82242D0E139EF6410035ECBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82242D0F139EF6410035ECBD /* UIKit.framework */,
+				82242D11139EF6410035ECBD /* Foundation.framework */,
+				82242D13139EF6410035ECBD /* CoreGraphics.framework */,
+				82242D34139EF6420035ECBD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82242D15139EF6410035ECBD /* tol */ = {
+			isa = PBXGroup;
+			children = (
+				82242D1E139EF6410035ECBD /* tolAppDelegate.h */,
+				82242D1F139EF6410035ECBD /* tolAppDelegate.m */,
+				82242D21139EF6410035ECBD /* MainStoryboard_iPhone.storyboard */,
+				82242D24139EF6410035ECBD /* MainStoryboard_iPad.storyboard */,
+				82242D27139EF6410035ECBD /* RootViewController.h */,
+				82242D28139EF6410035ECBD /* RootViewController.m */,
+				82242D2A139EF6420035ECBD /* DetailViewController.h */,
+				82242D2C139EF6420035ECBD /* DetailViewController.m */,
+				82242D16139EF6410035ECBD /* Supporting Files */,
+			);
+			path = tol;
+			sourceTree = "<group>";
+		};
+		82242D16139EF6410035ECBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82242D17139EF6410035ECBD /* tol-Info.plist */,
+				82242D18139EF6410035ECBD /* InfoPlist.strings */,
+				82242D1B139EF6410035ECBD /* main.m */,
+				82242D1D139EF6410035ECBD /* tol-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82242D3B139EF6420035ECBD /* tolTests */ = {
+			isa = PBXGroup;
+			children = (
+				82242D41139EF6420035ECBD /* tolTests.h */,
+				82242D43139EF6420035ECBD /* tolTests.m */,
+				82242D3C139EF6420035ECBD /* Supporting Files */,
+			);
+			path = tolTests;
+			sourceTree = "<group>";
+		};
+		82242D3C139EF6420035ECBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82242D3D139EF6420035ECBD /* tolTests-Info.plist */,
+				82242D3E139EF6420035ECBD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82242D0A139EF6410035ECBD /* tol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82242D47139EF6420035ECBD /* Build configuration list for PBXNativeTarget "tol" */;
+			buildPhases = (
+				82242D07139EF6410035ECBD /* Sources */,
+				82242D08139EF6410035ECBD /* Frameworks */,
+				82242D09139EF6410035ECBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tol;
+			productName = tol;
+			productReference = 82242D0B139EF6410035ECBD /* tol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82242D32139EF6420035ECBD /* tolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82242D4A139EF6420035ECBD /* Build configuration list for PBXNativeTarget "tolTests" */;
+			buildPhases = (
+				82242D2E139EF6420035ECBD /* Sources */,
+				82242D2F139EF6420035ECBD /* Frameworks */,
+				82242D30139EF6420035ECBD /* Resources */,
+				82242D31139EF6420035ECBD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82242D3A139EF6420035ECBD /* PBXTargetDependency */,
+			);
+			name = tolTests;
+			productName = tolTests;
+			productReference = 82242D33139EF6420035ECBD /* tolTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82242D02139EF6400035ECBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Maxwest Technical Consulting Inc";
+			};
+			buildConfigurationList = 82242D05139EF6400035ECBD /* Build configuration list for PBXProject "tol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82242D00139EF6400035ECBD;
+			productRefGroup = 82242D0C139EF6410035ECBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82242D0A139EF6410035ECBD /* tol */,
+				82242D32139EF6420035ECBD /* tolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82242D09139EF6410035ECBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82242D1A139EF6410035ECBD /* InfoPlist.strings in Resources */,
+				82242D23139EF6410035ECBD /* MainStoryboard_iPhone.storyboard in Resources */,
+				82242D26139EF6410035ECBD /* MainStoryboard_iPad.storyboard in Resources */,
+				82242D2B139EF6420035ECBD /* DetailViewController.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82242D30139EF6420035ECBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82242D40139EF6420035ECBD /* InfoPlist.strings in Resources */,
+				82242D42139EF6420035ECBD /* tolTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82242D31139EF6420035ECBD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82242D07139EF6410035ECBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82242D1C139EF6410035ECBD /* main.m in Sources */,
+				82242D20139EF6410035ECBD /* tolAppDelegate.m in Sources */,
+				82242D29139EF6410035ECBD /* RootViewController.m in Sources */,
+				82242D2D139EF6420035ECBD /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82242D2E139EF6420035ECBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82242D44139EF6420035ECBD /* tolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82242D3A139EF6420035ECBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82242D0A139EF6410035ECBD /* tol */;
+			targetProxy = 82242D39139EF6420035ECBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82242D18139EF6410035ECBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82242D19139EF6410035ECBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82242D21139EF6410035ECBD /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82242D22139EF6410035ECBD /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		82242D24139EF6410035ECBD /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82242D25139EF6410035ECBD /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		82242D3E139EF6420035ECBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82242D3F139EF6420035ECBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82242D45139EF6420035ECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82242D46139EF6420035ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82242D48139EF6420035ECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tol/tol-Prefix.pch";
+				INFOPLIST_FILE = "tol/tol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82242D49139EF6420035ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tol/tol-Prefix.pch";
+				INFOPLIST_FILE = "tol/tol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82242D4B139EF6420035ECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tol.app/tol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tol/tol-Prefix.pch";
+				INFOPLIST_FILE = "tolTests/tolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		82242D4C139EF6420035ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tol.app/tol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tol/tol-Prefix.pch";
+				INFOPLIST_FILE = "tolTests/tolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82242D05139EF6400035ECBD /* Build configuration list for PBXProject "tol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82242D45139EF6420035ECBD /* Debug */,
+				82242D46139EF6420035ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82242D47139EF6420035ECBD /* Build configuration list for PBXNativeTarget "tol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82242D48139EF6420035ECBD /* Debug */,
+				82242D49139EF6420035ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82242D4A139EF6420035ECBD /* Build configuration list for PBXNativeTarget "tolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82242D4B139EF6420035ECBD /* Debug */,
+				82242D4C139EF6420035ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82242D02139EF6400035ECBD /* Project object */;
+}
