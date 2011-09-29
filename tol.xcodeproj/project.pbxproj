@@ -42,21 +42,21 @@
 		82242D0F139EF6410035ECBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		82242D11139EF6410035ECBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82242D13139EF6410035ECBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		82242D17139EF6410035ECBD /* tol-Info.plist */ = {isa = PBXFileReference; path = "tol-Info.plist"; sourceTree = "<group>"; };
+		82242D17139EF6410035ECBD /* tol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tol-Info.plist"; sourceTree = "<group>"; };
 		82242D19139EF6410035ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82242D1B139EF6410035ECBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		82242D1D139EF6410035ECBD /* tol-Prefix.pch */ = {isa = PBXFileReference; path = "tol-Prefix.pch"; sourceTree = "<group>"; };
-		82242D1E139EF6410035ECBD /* tolAppDelegate.h */ = {isa = PBXFileReference; path = tolAppDelegate.h; sourceTree = "<group>"; };
+		82242D1D139EF6410035ECBD /* tol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tol-Prefix.pch"; sourceTree = "<group>"; };
+		82242D1E139EF6410035ECBD /* tolAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tolAppDelegate.h; sourceTree = "<group>"; };
 		82242D1F139EF6410035ECBD /* tolAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tolAppDelegate.m; sourceTree = "<group>"; };
 		82242D22139EF6410035ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		82242D25139EF6410035ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		82242D27139EF6410035ECBD /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		82242D27139EF6410035ECBD /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		82242D28139EF6410035ECBD /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		82242D2A139EF6420035ECBD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		82242D2C139EF6420035ECBD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		82242D33139EF6420035ECBD /* tolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82242D34139EF6420035ECBD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		82242D3D139EF6420035ECBD /* tolTests-Info.plist */ = {isa = PBXFileReference; path = "tolTests-Info.plist"; sourceTree = "<group>"; };
+		82242D3D139EF6420035ECBD /* tolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tolTests-Info.plist"; sourceTree = "<group>"; };
 		82242D3F139EF6420035ECBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82242D41139EF6420035ECBD /* tolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tolTests.h; sourceTree = "<group>"; };
 		82242D43139EF6420035ECBD /* tolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tolTests.m; sourceTree = "<group>"; };
@@ -208,6 +208,7 @@
 		82242D02139EF6400035ECBD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Maxwest Technical Consulting Inc";
 			};
 			buildConfigurationList = 82242D05139EF6400035ECBD /* Build configuration list for PBXProject "tol" */;
@@ -455,6 +456,7 @@
 				82242D49139EF6420035ECBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82242D4A139EF6420035ECBD /* Build configuration list for PBXNativeTarget "tolTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +465,7 @@
 				82242D4C139EF6420035ECBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
